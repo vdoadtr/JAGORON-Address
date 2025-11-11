@@ -52,10 +52,11 @@
             <div class="flex flex-col md:flex-row items-center mb-4 md:mb-0">
                 <!-- JAGORON Text -->
                 <div class="text-3xl font-extrabold text-indigo-600 tracking-wider mb-2 md:mb-0 md:mr-6">
-                    <a href="index.html">JAGORON</a>
+                    <!-- Updated: Link to Home page URL -->
+                    <a href="https://vdoadtr.github.io/JAGORON-Home/">JAGORON</a>
                 </div>
                 <!-- Home Button (Standard) -->
-                <a href="index.html" id="homeButton" 
+                <a href="https://vdoadtr.github.io/JAGORON-Home/" id="homeButton" 
                    class="nav-button px-4 py-2 rounded-lg text-gray-700 hover:bg-gray-100 transition duration-300">
                     Home
                 </a>
@@ -63,11 +64,14 @@
             
             <!-- Right Group: Nav Links (About, Contact, Address, Ticket) -->
             <nav class="flex flex-wrap justify-center space-x-2 md:space-x-4 font-semibold">
-                <a href="about.html" class="nav-button p-2 rounded-lg text-gray-700 hover:bg-gray-100 transition duration-300">About</a>
-                <a href="contact.html" class="nav-button p-2 rounded-lg text-gray-700 hover:bg-gray-100 transition duration-300">Contact</a>
+                <!-- Updated: Link to About page URL -->
+                <a href="https://vdoadtr.github.io/JAGORON-About/" class="nav-button p-2 rounded-lg text-gray-700 hover:bg-gray-100 transition duration-300">About</a>
+                <!-- Updated: Link to Contact page URL -->
+                <a href="https://vdoadtr.github.io/JAGORON-Contact/" class="nav-button p-2 rounded-lg text-gray-700 hover:bg-gray-100 transition duration-300">Contact</a>
                 <!-- Address Button (Highlighted/Active) -->
-                <a href="address.html" class="nav-button nav-active px-4 py-2 rounded-lg transition duration-300">Address</a>
-                <!-- TickeT button - Standard style -->
+                <!-- Updated: Link to Address page URL -->
+                <a href="https://vdoadtr.github.io/JAGORON-Address/" class="nav-button nav-active px-4 py-2 rounded-lg transition duration-300">Address</a>
+                <!-- TickeT button - Standard style, link is handled by JS -->
                 <button id="navTicketButton" 
                     class="nav-button text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-100 transition duration-300 shadow-sm border border-gray-200"
                     onclick="handleTicketClick()">
@@ -189,7 +193,8 @@
 
     <script>
         // --- Configuration & Initialization ---
-        const TICKET_LINK = "https://example.com/jagoron-tickets"; // TickeT বাটনে যুক্ত করার লিঙ্ক
+        // Updated: Using the external link provided by the user for the Ticket page
+        const TICKET_LINK = "https://vdoadtr.github.io/JAGORON-Ticket/"; 
         const VENUE_ADDRESS = "The Grand Cultural Hall, 5/A, Kabi Nazrul Sarani Road, Kolkata - 700064, India";
 
         // --- Firebase/Auth Setup (Mandatory in this environment) ---
